@@ -1,0 +1,13 @@
+.imageArray {
+    display: grid;
+    gap: .5em;
+    grid-template-areas: 
+    'imageOne imageTwo imageThree'
+    'imageFour imageFive imageSix';
+    grid-template-columns: 1fr 1fr 1fr;
+
+}
+
+.imageArray > div {
+    border: 2px solid black;
+}
