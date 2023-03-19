@@ -72,7 +72,15 @@ useEffect(() => {
 
   return (
     <div style={{ maxWidth:'800px', display:'flex', flexDirection:'column', gap:'2rem', margin:'0 auto', alignItems:'center',}}>
-        <div style={{textAlign:'center', fontSize:'2rem'}}>
+       <div style={{textAlign:'center', fontSize:'2rem'}}>
+        <h1> Word Filler</h1>
+        <p>Guess a letter and try to complete the word without completing the picture.</p>
+       </div>
+
+
+
+
+        <div style={{textAlign:'center', fontSize:'1rem', color: 'red'}}>
         {isWinner && "Winner! - Refresh to try again"}
         {isLoser && "Oh No...You Lost - Refresh to try again"}
         </div>
